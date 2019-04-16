@@ -98,7 +98,7 @@ header h2, header .slogan , header p{
     font-style: italic;
     font-size: 6em;
     font-weight: 700;
-    color: #fbfbfb;
+    color: #fbfbfb; 
     line-height: 0.75;
     z-index: 0;
     text-align: center;
