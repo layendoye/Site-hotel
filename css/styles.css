@@ -18,28 +18,28 @@ header h2, header .slogan , header p{
 }
 
 .bg1 {
-    background-image: url(../images/5.jpg);
+    background-image: url(../images/6.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .bg2 {
-    background-image: url(../images/4.jpg);
+    background-image: url(../images/5.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .bg3 {
-    background-image: url(../images/7.jpg);
+    background-image: url(../images/4.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .bg4 {
-    background-image: url(../images/6.jpg);
+    background-image: url(../images/7.jpg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ header h2, header .slogan , header p{
 .carousel-caption{
     right: 20%;
     left: 20%;
-    padding-bottom: 25%;
+    padding-bottom: 18%;
     
 }
 .ombre{
@@ -67,10 +67,7 @@ header h2, header .slogan , header p{
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
-#presentation p:hover {
-    background-color: rgb(229, 238, 238);
-    border-radius: 15px;
-}
+
 [class*="chambre1"] {
     min-height: calc(100vh - 60px);
     background-image: url(../images/Room/1.png);
@@ -89,16 +86,28 @@ header h2, header .slogan , header p{
 .welc{
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    font-size: 136px;
+    font-size: 9em;
     font-weight: 700;
-    color: #f4f5fa;
+    color: #eceef3;
     line-height: 0.75;
     z-index: 0;
+    margin-bottom: 3%;
+}
+
+.CHM{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 6em;
+    font-weight: 700;
+    color: #fbfbfb;
+    line-height: 0.75;
+    z-index: 0;
+    text-align: center;
 }
 .text-pres{
     text-align: justify;
 }
 [class*="titrePres"]{
-    margin-top: 20%;
+    margin-top: 7%;
     margin-bottom: 10%;
 }
