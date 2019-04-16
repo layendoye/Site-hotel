@@ -95,6 +95,10 @@ header h2, header .slogan , header p{
     line-height: 0.75;
     z-index: 0;
 }
-.footer{
-    height: 500px;
+.text-pres{
+    text-align: justify;
+}
+[class*="titrePres"]{
+    margin-top: 20%;
+    margin-bottom: 10%;
 }
