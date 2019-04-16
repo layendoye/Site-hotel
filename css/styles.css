@@ -54,6 +54,10 @@ header h2, header .slogan , header p{
     right: 20%;
     left: 20%;
     padding-bottom: 25%;
+    
+}
+.ombre{
+    text-shadow:0px 8px 10px black !important;
 }
 .a-centrer{
     text-align: center;
@@ -67,18 +71,30 @@ header h2, header .slogan , header p{
     background-color: rgb(229, 238, 238);
     border-radius: 15px;
 }
-
-#chambre1 {
-    height: 600px;
-    background-image: url(../images/gallerie8.png);
+[class*="chambre1"] {
+    min-height: calc(100vh - 60px);
+    background-image: url(../images/Room/1.png);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+    
+}
+[class*="chambre1"]{
+    margin-right: 0px;
 }
 .pres-ch{
-    background-color: rgb(218, 218, 214);
-    height:600px;
+    background-color: #f5f6fa;
+    min-height: calc(100vh - 60px);
 }
-.marge-menu{
-    height: 60px;
+.welc{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 136px;
+    font-weight: 700;
+    color: #f4f5fa;
+    line-height: 0.75;
+    z-index: 0;
+}
+.footer{
+    height: 500px;
 }
