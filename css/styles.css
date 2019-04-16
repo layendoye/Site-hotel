@@ -1,0 +1,24 @@
+.icones{
+    margin: 20px;
+}
+
+
+footer span{
+    color: white;
+    font-size: 25px;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    
+}
+.pied{
+    background-image: url(../images/Footer.png);
+    background-attachment: fixed;
+   
+
+  
+}
