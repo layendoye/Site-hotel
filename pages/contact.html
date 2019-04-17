@@ -6,42 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
-    <link  rel="icon" type="png" href="../images/favicon/favicon.jpg">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <title>Contatc</title>
 </head>
-<body>
+<body id="haut">
     <div class="container">
         <form action="" method="POST">
                 <!-- ****************************BARRE DE NAVIGATION ************************************ -->
-                      
                 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                          <a class="navbar-brand" href="#haut"><img src="../images/favicon-32x32.png" alt="logo SA">
-                          Hotel SonatelAcademy
-                          </a>
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-      
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#haut">Accueil <span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#presentation">Presentation</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="liste-chambre.html">Liste des Chambres</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="#services">Services</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="#contact">Contact</a>
-                              </li>
-                            </ul>
-                          </div>
-                </nav>
+                    <a class="navbar-brand" href="../index.html"><img src="../images/favicon-32x32.png" alt="logo SA">
+                    Hotel SonatelAcademy
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="../index.html">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../index.html#presentation">Presentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rooms.html">Chambres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#haut">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
                 <!-- **************************** SECTION ************************************ -->
             <div class="section">
                 <div class="container-fluid">
@@ -56,7 +52,10 @@
                     <div class="row message">
                         <textarea class="col-md-12 le-message form-control" name="message" placeholder="Message"></textarea>
                     </div>
-  
+                    <div class="row">
+                        <div class="col-md-9"></div>
+                        <input type="submit" value="Envoyer" class="col-md-3 form-control BSend">
+                    </div>
                 </div>
             </div>
                 <!-- **************************** PIED DE PAGE ************************************ -->
@@ -65,5 +64,58 @@
             </div>
         </form>
     </div>
+    <footer class="py-5 container-fluid  pied">
+            
+        <div class="row pad">
+            <div class="col-lg-5"></div>
+            <div class="col-lg-2"><img src="../images/icones/facebook.png"></div>
+            <div class="col-lg-5"></div>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="../images/icones/tel.png" class="log"><br>
+                            (+221) 33 839 21 00
+                </div>
+  
+                <div class="col-lg-6">
+                    <img src="../images/icones/localisation.png" class="log"><br>
+                      Immeuble Scalène Mermoz Ecole Police lot B Dakar 
+                </div>
+  
+                <div class="col-lg-3">
+                    <img src="../images/icones/mail2.png" class="log"><br>
+                                contact@sonatelacademy.sn
+                </div>
+            </div>
+        </div>
+  
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <span>Nous suivre sur ...</span>
+                    <a href="">
+                        <img src="../images/icones/fb.png" class="icones">
+                    </a>
+                    
+                    <a href="https://fr-fr.facebook.com/SonatelAcademy/" target="https://fr-fr.facebook.com/SonatelAcademy/"><img src="../images/icones/tw.png" class="icones"></a>
+                    <a href=""><img src="../images/icones/yt.png" class="icones"></a>
+                   
+            </div>
+        </div>
+  
+        <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                        <p class="m-0 text-center text-white" >Copyright &copy;&#9733;
+                            <a class="text-white" href="https://makarimalakhlaqsoft.com" target="https://makarimalakhlaqsoft.com"> SONATEL ACADEMY PROMO 2</a> &#9733;
+                        <script>document.write(new Date().getFullYear());</script>
+                    </p>
+                
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+      </footer>
 </body>
 </html> 
