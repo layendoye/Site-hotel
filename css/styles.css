@@ -155,4 +155,11 @@ header h2, header .slogan , header p{
     margin-top: 7%;
     margin-bottom: 7%;
 }
+.BIENVENUE{
+    position: relative;
+    bottom: 14%;
+    font-style: italic;
+    color: black;
+    z-index: 1;
+}
 
