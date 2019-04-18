@@ -11,9 +11,11 @@ header h1, header h2 {
 }
 header h1 {
     font-family: 'Raleway', sans-serif;
+    text-shadow: 4px 4px 4px #333
 }
 header h2, header .slogan , header p{
     font-family: 'Dancing Script', cursive;
+    text-shadow: 0px 0px 3px #000
 }
 
 .bg1 {
@@ -128,8 +130,7 @@ header h2, header .slogan , header p{
 }
 
 .categorie{
-    font-family: 'Raleway ExtraBold', sans-serif;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 400;
     margin: 2vh 0px;
@@ -284,6 +285,8 @@ hr{
     background-image: url(../images/footer2.png);
     background-attachment: fixed;
     height: 500px;
+    background-size: cover;
+    background-position: bottom;
 }
 .icones{
     margin: 15px;
