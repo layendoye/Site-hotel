@@ -269,7 +269,9 @@ header h2, header .slogan , header p{
     background-color: rgb(56, 116, 236);
 }
 
-
+#coul-transp{
+    background-color: rgba(0,0,0, 0);
+}
 
 
 
