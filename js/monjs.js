@@ -5,8 +5,10 @@ function changerCoul(){
 
     if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1){
         navCoul.style.backgroundColor="#f8f9fa";
+        navCoul.style.color="white";
     }
     else{
         navCoul.style.backgroundColor="rgba(0,0,0, 0)";
+        navCoul.style.color="white";
     }
 } 
