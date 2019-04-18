@@ -9,4 +9,4 @@ function changerCoul(){
     else{
         navCoul.style.backgroundColor="rgba(0,0,0, 0)";
     }
-}
+} 
