@@ -316,3 +316,6 @@ footer{
 .chang-coul1,.chang-coul2,.chang-coul3,.chang-coul4,.chang-coul5{
     color: white;
 }
+#coul-transp{
+    background-color: rgba(0,0,0, 0);
+}
