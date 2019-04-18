@@ -283,7 +283,13 @@ p{
 #coul-transp{
     background-color: rgba(0,0,0, 0);
 }
-
+.desc-foot{
+    height: 12%;
+}
+.carte{
+    width: 99%;
+    margin-bottom: 5%;
+}
 
 
 

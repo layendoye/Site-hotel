@@ -310,3 +310,6 @@ footer{
 .sans-padding{
     padding: 0px !important;
 }
+.desc-foot{
+    height: 12%;
+}
