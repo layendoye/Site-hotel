@@ -295,4 +295,6 @@ p{
     color: white;
 }
 
-
+.active{
+    color: #fbb03b !important;
+}
