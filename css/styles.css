@@ -295,6 +295,17 @@ p{
     color: white;
 }
 
+<<<<<<< HEAD
 .active{
     color: #fbb03b !important;
 }
+=======
+.about i {
+    font-size: 76px;
+    color: #FBB03B;
+    margin-bottom: 20px;
+}
+.about{
+    text-align: center;
+}
+>>>>>>> 2411ab6b023daef6c2c592c23efec6e06b883e3c
