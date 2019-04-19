@@ -313,6 +313,10 @@ footer{
     margin-top: 7%;
     margin-bottom: 10%;
 }
+.Dif-ch{
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
 .sans-padding{
     padding: 0px !important;
 }
@@ -324,4 +328,7 @@ footer{
 }
 #coul-transp{
     background-color: rgba(0,0,0, 0);
+}
+.mar-topp{
+    margin-top: 5%;
 }
