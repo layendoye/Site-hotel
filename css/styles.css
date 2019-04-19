@@ -1,0 +1,305 @@
+.icones{
+    margin: 15px;
+}
+footer span{
+    color: white;
+    font-size: 25px;
+}
+
+footer{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.pied{
+    background-image: url(../images/footer2.png);
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header .row {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+header h1, header h2 {
+    text-align: center;
+}
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 4px #000;
+}
+
+header h2, header .slogan , header p{
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.bg1 {
+    background-image: url(../images/6.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg2 {
+    background-image: url(../images/5.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg3 {
+    background-image: url(../images/4.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.bg4 {
+    background-image: url(../images/7.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.carousel-fade .carousel-item{
+    opacity: 0;
+    transition-property: opacity;
+    height: 90vh;
+}
+.carousel-caption{
+    right: 20%;
+    left: 20%;
+    padding-bottom: 18%;
+    
+}
+.ombre{
+    text-shadow:0px 8px 10px black !important;
+}
+.a-centrer{
+    text-align: center;
+}
+#presentation p {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.chambre{
+    min-height: calc(100vh - 60px);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sans-padding{
+    padding: 0px !important;
+}
+.padding-bas-0{
+    padding-bottom: 0px !important;
+}
+.margin-top-10{
+    margin-top: 10%;
+}
+.pres-ch{
+    background-color: #f5f6fa;
+    min-height: calc(100vh - 60px);
+}
+.welc{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 9em;
+    font-weight: 700;
+    color: #eceef3;
+    line-height: 0.75;
+    z-index: 0;
+    margin-bottom: 3%;
+}
+.CHM{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 6em;
+    font-weight: 700;
+    color: #fbfbfb; 
+    line-height: 0.75;
+    z-index: 0;
+    text-align: center;
+}
+.text-pres{
+    text-align: justify;
+}
+.titrePres{
+    z-index: 1;
+    position: relative;
+    bottom: 11%;
+}
+.le-nomEm{
+    margin-top: 2%;    
+}
+.NomEmail{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-top: calc(5vh + 60px);
+}
+.le-message{
+    margin-top: 2%;
+    min-height: 350px;
+}
+.BSend{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.titrePres{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.BIENVENUE{
+    font-family: 'Courgette', cursive;
+    position: relative;
+    bottom: 14%;
+    color: black;
+    z-index: 1;
+}
+.mar-bott{
+    margin-bottom: 5%;
+}
+
+/* TEAM*/
+.team {
+    position: relative;
+    background-color: #F4F4F4;
+    padding: 40px 20px;
+    margin: 15px 0px;
+}
+
+.team::after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 0%;
+    z-index: 1;
+    -webkit-transition: 0.2s height;
+    transition: 0.2s height;
+}
+
+.team:hover:after {
+    height: 100%;
+}
+
+.team-img {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 11;
+}
+
+.team-img>img {
+  width: 100%;
+}
+
+.team .overlay {
+    background: #1C1D21;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.team:hover .overlay {
+    opacity: 0.8;
+}
+
+.team .team-content {
+    text-align: center;
+    position: relative;
+    z-index: 11;
+}
+
+.team .team-content h3 {
+    margin-bottom: 10px;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.team .team-content span {
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
+.team:hover .team-content h3 {
+    color: #FFF;
+}
+
+.team:hover .team-content span {
+    color: #6195FF;
+}
+
+.team .team-social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.team .team-social a {
+    display: block;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: #6195FF;
+    color: #FFF;
+}
+
+.team:hover .team-social {
+    opacity: 1;
+}
+.team .team-social a:hover {
+    background-color: rgb(56, 116, 236);
+}
+
+#coul-transp{
+    background-color: rgba(0,0,0, 0);
+}
+.desc-foot{
+    height: 5%;
+}
+.carte{
+    width: 99%;
+    margin-bottom: 5%;
+}
+
+.chang-coul1,.chang-coul2,.chang-coul3,.chang-coul4,.chang-coul5{
+    color: white;
+}
+
+.about i {
+    font-size: 76px;
+    color: #FBB03B;
+    margin-bottom: 20px;
+}
+.about{
+    text-align: center;
+}
