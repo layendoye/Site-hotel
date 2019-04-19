@@ -295,4 +295,11 @@ p{
     color: white;
 }
 
-
+.about i {
+    font-size: 76px;
+    color: #FBB03B;
+    margin-bottom: 20px;
+}
+.about{
+    text-align: center;
+}
